@@ -57,14 +57,3 @@ Customers should paste the full output back to support.
 - `3`: Inconclusive
 - `1`: Invalid script usage
 
-## Limitations
-
-This script uses local evidence and optional `buildInfo` output. If MongoDB binaries are not in `PATH`, packages are unavailable, or the host cannot connect with `mongosh`, the result may be inconclusive.
-
-## Suggested Repository Names
-
-- `mongodb-edition-diagnostic`
-- `mongodb-community-check`
-- `mongodb-edition-detector`
-- `mongo-edition-support-tool`
-- `mongodb-installation-check`
