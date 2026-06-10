@@ -22,7 +22,9 @@ It does not change MongoDB configuration, write to the database, restart service
 
 ## Customer Instructions
 
-Download or copy the script to the MongoDB host, then run:
+Download or copy the script to the server where the MongoDB node is running. In other words, run it on the same host that runs the `mongod` or `mongos` process you want to check.
+
+Then run:
 
 ```bash
 chmod +x identify_mongodb_edition.sh
@@ -56,4 +58,3 @@ Customers should paste the full output back to support.
 - `2`: Enterprise indicators found
 - `3`: Inconclusive
 - `1`: Invalid script usage
-
